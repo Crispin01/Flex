@@ -1,0 +1,33 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.columna {
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    padding: 100px;
+    font-size: 40px;
+    color: rgb(255, 225, 58);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+}
+.columna:nth-child(1) {
+    height: 350px;
+
+}
+.columna:nth-child(2) {
+    height: 250px;
+}
+.columna:nth-child(3) {
+    height: 500px;
+}
+.columna.columna:nth-child(even) {
+    background: blueviolet;
+}
+.columna.columna:nth-child(odd){
+    background: green;
+}
+.contenedor2 .columna {
+    float: left;
+}
